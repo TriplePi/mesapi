@@ -53,6 +53,7 @@ Sandbox.define("/api/timeline/workcenterinaccessibility", "GET", api.getApiTimel
 Sandbox.define("/api/timeline/workcenters", "GET", api.getApiTimelineWorkcenters);
 Sandbox.define("/api/timeline/workcenterservice", "GET", api.getApiTimelineWorkcenterservice);
 Sandbox.define("/api/workcenter", "GET", api.getApiWorkcenter);
+Sandbox.define("/api/workcenter/{workCenterId}", "GET", api.getApiWorkcenterById);
 Sandbox.define("/api/workcenter", "POST", api.postApiWorkcenter);
 Sandbox.define("/api/workcenter/{workCenterId}", "DELETE", api.deleteApiWorkcenter);
 Sandbox.define("/api/workcenter/{workCenterId}/service", "POST", api.postApiWorkcenterService);

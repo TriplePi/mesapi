@@ -752,6 +752,24 @@ exports.postSignIn = function (req, res) {
     });
 };
 
+
+/*
+ * GET /api/workcenter/{workCenterId}
+ *
+ * Parameters (named path params accessible on req.params and query params on req.query):
+ *
+ */
+exports.getApiWorkcenterById = function (req, res) {
+    res.status(200);
+
+    // set response body and send
+    res.type('json');
+    res.json(_.find(workcenters, {'Id': Number(req.params.productId)}));
+};
+
+
+
+
 var orders = [
     {
         "Id": 1,
