@@ -664,7 +664,7 @@ exports.getApiWorkcenter = function (req, res) {
 
     // set response body and send
     res.type('json');
-    res.render('api_getApiWorkcenter');
+    res.send(workcenters);
 };
 
 /*
