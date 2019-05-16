@@ -764,7 +764,7 @@ exports.getApiWorkcenterById = function (req, res) {
 
     // set response body and send
     res.type('json');
-    res.json(_.find(workcenters, {'Id': Number(req.params.productId)}));
+    res.json(_.find(workcenters, {'Id': Number(req.params.workCenterId)}));
 };
 
 
