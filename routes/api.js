@@ -492,7 +492,7 @@ exports.getApiSchedule = function (req, res) {
 
     // set response body and send
     res.type('json');
-    res.render('api_getApiSchedule');
+    res.send(schedule);
 };
 
 /*
@@ -766,8 +766,6 @@ exports.getApiWorkcenterById = function (req, res) {
     res.type('json');
     res.json(_.find(workcenters, {'Id': Number(req.params.workCenterId)}));
 };
-
-
 
 
 var orders = [
@@ -3399,5 +3397,57 @@ var adjustments = [
         "OperationId": 4,
         "PrevOperationId": null,
         "Duration": "00:15:00"
+    }
+];
+
+var schedule = [
+    {
+        "Id": 0,
+        "Operation": {
+            "Name": "string",
+            "ProductName": "string",
+            "ProductId": 0,
+            "ModeId": 0,
+            "OperationId": 0,
+            "TechnologyProcessId": 0
+        },
+        "WorkCenter": {
+            "Id": 0,
+            "Name": "string"
+        },
+        "Batch": {
+            "Id": 0,
+            "Number": 0,
+            "Quantity": 0,
+            "FactQuantity": 0,
+            "OrderId": 0,
+            "OrderNumber": "string",
+            "StartOperationId": 0
+        },
+        "StartDate": "2019-05-20T18:53:54.533Z",
+        "StartExecutionDate": "2019-05-20T18:53:54.533Z",
+        "FinishDate": "2019-05-20T18:53:54.533Z",
+        "WorkCenterFinishDate": "2019-05-20T18:53:54.533Z",
+        "Timestamp": 0,
+        "FactStartDate": "2019-05-20T18:53:54.533Z",
+        "FactFinishDate": "2019-05-20T18:53:54.533Z",
+        "FactWorkCenterFinishDate": "2019-05-20T18:53:54.533Z",
+        "FactStartExecutionDate": "2019-05-20T18:53:54.533Z",
+        "PlanCount": 0,
+        "FactCount": 0,
+        "QuarantineCount": 0,
+        "Leftover": {
+            "Id": 0,
+            "Count": 0,
+            "BaseOnId": 0,
+            "SolutionId": 0
+        },
+        "LeftoverSolution": {
+            "Id": 0,
+            "Count": 0,
+            "BaseOnId": 0,
+            "SolutionId": 0
+        },
+        "Status": "New"
     }
 ];
