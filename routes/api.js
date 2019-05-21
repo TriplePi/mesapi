@@ -3404,8 +3404,8 @@ var schedule = [
     {
         "Id": 0,
         "Operation": {
-            "Name": "string",
-            "ProductName": "string",
+            "Name": "Операция",
+            "ProductName": "Продукт",
             "ProductId": 0,
             "ModeId": 0,
             "OperationId": 0,
@@ -3433,7 +3433,7 @@ var schedule = [
         "FactFinishDate": 1558443591,
         "FactWorkCenterFinishDate": 1558443591,
         "FactStartExecutionDate": 1558443591,
-        "PlanCount": 0,
+        "PlanCount": 20,
         "FactCount": 0,
         "QuarantineCount": 0,
         "Leftover": {
