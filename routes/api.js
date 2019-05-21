@@ -767,6 +767,27 @@ exports.getApiWorkcenterById = function (req, res) {
     res.json(_.find(workcenters, {'Id': Number(req.params.workCenterId)}));
 };
 
+/*
+ * GET /api/workcenter/{workCenterId}/status
+ *
+ * Parameters (named path params accessible on req.params and query params on req.query):
+ *
+ */
+exports.getApiWorkcenterStatus = function (req, res) {
+    res.status(200);
+    // set response body and send
+    res.type('json');
+    res.json(statuses[randomInteger(0,statuses.length)]);
+};
+
+function randomInteger(min, max) {
+    var rand = min + Math.random() * (max + 1 - min);
+    rand = Math.floor(rand);
+    return rand;
+  }
+
+
+var statuses = ["Работает", "Ожидает", "Пуско-наладочные работы", "Поломка"] 
 
 var orders = [
     {

@@ -58,4 +58,5 @@ Sandbox.define("/api/workcenter", "POST", api.postApiWorkcenter);
 Sandbox.define("/api/workcenter/{workCenterId}", "DELETE", api.deleteApiWorkcenter);
 Sandbox.define("/api/workcenter/{workCenterId}/service", "POST", api.postApiWorkcenterService);
 Sandbox.define("/api/workcenter/{workCenterId}/workingtimes", "POST", api.postApiWorkcenterWorkingtimes);
+Sandbox.define("/api/workcenter/{workCenterId}/status", "GET", api.getApiWorkcenterStatus);
 Sandbox.define('/api/signin','POST', api.postSignIn);
