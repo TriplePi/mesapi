@@ -787,7 +787,8 @@ function randomInteger(min, max) {
   }
 
 
-var statuses = ["Работает", "Ожидает", "Пуско-наладочные работы", "Поломка"] 
+var statuses = [
+    {"message" : "Работает"}, {"message" : "Ожидает"}, {"message" : "Пуско-наладочные работы"}, {"message" : "Поломка"}] 
 
 var orders = [
     {
