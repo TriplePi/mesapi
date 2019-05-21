@@ -777,7 +777,7 @@ exports.getApiWorkcenterStatus = function (req, res) {
     res.status(200);
     // set response body and send
     res.type('json');
-    res.json(statuses[randomInteger(0,statuses.length)]);
+    res.json(statuses[randomInteger(0,statuses.length-1)]);
 };
 
 function randomInteger(min, max) {
