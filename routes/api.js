@@ -779,8 +779,7 @@ exports.getApiWorkcenterStatus = function (req, res) {
     res.type('json');
     var kek = _.find(workcenters, {
         'Id': Number(req.params.workCenterId)
-    })
-    kek.push(statuses[randomInteger(0, statuses.length - 1)])
+    }).push(statuses[randomInteger(0, statuses.length - 1)])
     res.json(kek);
 };
 
