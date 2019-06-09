@@ -3338,49 +3338,49 @@ var workcenters = [
         "ExecutionCost": 600
     },
     {
-        "Id": 49,
+        "Id": 46,
         "Name": "ин.454 Vсenter",
         "IdleCost": 200,
         "AdjustmentCost": 400,
         "ExecutionCost": 600
     },
     {
-        "Id": 50,
+        "Id": 47,
         "Name": "ин.22 CHEVALIER",
         "IdleCost": 200,
         "AdjustmentCost": 400,
         "ExecutionCost": 600
     },
     {
-        "Id": 51,
+        "Id": 48,
         "Name": "ин.399 CHEVALIER",
         "IdleCost": 200,
         "AdjustmentCost": 400,
         "ExecutionCost": 600
     },
     {
-        "Id": 52,
+        "Id": 50,
         "Name": "ин.161 HARDINGE",
         "IdleCost": 200,
         "AdjustmentCost": 400,
         "ExecutionCost": 600
     },
     {
-        "Id": 53,
+        "Id": 51,
         "Name": "ин.472 CHEVALIER",
         "IdleCost": 200,
         "AdjustmentCost": 400,
         "ExecutionCost": 600
     },
     {
-        "Id": 54,
+        "Id": 52,
         "Name": "ин.471 CHEVALIER",
         "IdleCost": 200,
         "AdjustmentCost": 400,
         "ExecutionCost": 600
     },
     {
-        "Id": 55,
+        "Id": 53,
         "Name": "ин.496 AVRORA",
         "IdleCost": 200,
         "AdjustmentCost": 400,
