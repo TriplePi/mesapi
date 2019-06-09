@@ -777,9 +777,11 @@ exports.getApiWorkcenterStatus = function (req, res) {
     res.status(200);
 // set response body and send
     res.type('json');
-    res.json(_.find(workcenters, {
+    var kek = _.find(workcenters, {
         'Id': Number(req.params.workCenterId)
-    }).push(statuses[randomInteger(0, statuses.length - 1)]));
+    });
+    kek.push(statuses[randomInteger(0, statuses.length - 1)]);
+    res.json(kek);
 };
 
 function randomInteger(min, max) {
