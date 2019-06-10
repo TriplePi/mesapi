@@ -3325,35 +3325,35 @@ var products = [
 var workcenters = [
     {
         "Id": 44,
-        "Name": "ин.389 Vсenter",
+        "Name": "Сверлильный станок",
         "IdleCost": 200,
         "AdjustmentCost": 400,
         "ExecutionCost": 600
     },
     {
         "Id": 45,
-        "Name": "ин.439 CHEVALIER",
+        "Name": "Фрезерный станок",
         "IdleCost": 200,
         "AdjustmentCost": 400,
         "ExecutionCost": 600
     },
     {
         "Id": 46,
-        "Name": "ин.454 Vсenter",
+        "Name": "Фрезерный станок",
         "IdleCost": 200,
         "AdjustmentCost": 400,
         "ExecutionCost": 600
     },
     {
         "Id": 47,
-        "Name": "ин.22 CHEVALIER",
+        "Name": "Токарный станок по дереву",
         "IdleCost": 200,
         "AdjustmentCost": 400,
         "ExecutionCost": 600
     },
     {
         "Id": 48,
-        "Name": "ин.399 CHEVALIER",
+        "Name": "Токарный станок",
         "IdleCost": 200,
         "AdjustmentCost": 400,
         "ExecutionCost": 600
